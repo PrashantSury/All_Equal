@@ -1,0 +1,9 @@
+table {
+  border-spacing: 50px;
+  background: #E91E63;
+}
+td {
+  background: #F00;
+  padding: 20px;
+  background: #FCE4EC;
+}
