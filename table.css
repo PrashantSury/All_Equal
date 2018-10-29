@@ -1,9 +1,10 @@
+
 table {
-  border-spacing: 50px;
+  border-spacing: 250px;
   background: #E91E63;
 }
 td {
   background: #F00;
-  padding: 20px;
+  padding: 50px;
   background: #FCE4EC;
 }
