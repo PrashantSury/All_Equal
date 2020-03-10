@@ -4,10 +4,7 @@ table {
   background: #E91E63;
   position:relative;
 }
-tr{
-padding:20px 20px 0px 00px;
-  position:absolute; 
-}
+
 td {
   background: #F00;
   padding: 100px;
