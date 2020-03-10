@@ -2,7 +2,7 @@
 table {
   border-spacing: 250px;
   background: #E91E63;
-  position:relative;
+  position:absolute;
 }
 td {
   background: #F00;
