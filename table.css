@@ -4,6 +4,9 @@ table {
   background: #E91E63;
   position:absolute;
 }
+tr{
+padding:20px 20px 20px 20px;
+}
 td {
   background: #F00;
   padding: 100px;
