@@ -2,11 +2,13 @@
 <html>
 <head>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+<style>
+html
+{
+background-image: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png');
+}
+</style>
 <script>
-$(document).ready(function(){
-$("button").addClass("animated bounce")
-});
-
 function reSet() {
 document.getElementById("demo").innerHTML="";
 var table=document.getElementById("myTable");
@@ -39,7 +41,7 @@ document.getElementById('demo').innerHTML="Game Started"+i+j;
              var col = row.cells.item(j);
               
              value=parseInt(table.rows[i].cells[j].innerHTML);
-             //alert(value);
+            // alert(value);
              if(Number.isNaN(value) && value!=0){
                alert("FILL THE BOX"+i+j);
                count++;
@@ -61,20 +63,22 @@ else
 alert("YOU LOSE");
 //document.getElementById('demo').innerHTML="YOU LOSE";
 }
-  reSet();
+ // reSet();
 }
 </script>
 </head>
 <body>
 <div class="container-fluid">
-<p id="demo" class="bounce"></p>
-<script>
+<p id="demo"></p>
 
-</script>
-<center>
-<h3>FILL ALL THE BOXES WITH EQUAL INTEGERS</h3>
-<table border=60 cellpadding=50px  id="myTable">
-<caption><center>Play Game</center></caption>
+
+<h3 align="center">FILL ALL THE BOXES WITH EQUAL INTEGERS</h3>
+<div align="center">
+<button type="button" onclick="start()">START GAME</button>
+<button type="button" onclick="reSet()">RESET</button>
+</div>
+<br>
+<table border=50 cellpadding=40px  id="myTable" align="center">
 <tr >
 <td contenteditable="true" ></td> 
 <td contenteditable='true'></td>
@@ -95,11 +99,7 @@ alert("YOU LOSE");
 </td>
 </tr>
 </table>
-<button type="button" onclick="start()">START GAME</button>
-<button type="button" onclick="reSet()">RESET</button>
-</center>
-
 <p align="right">Created By Prashant S.</p>
-</div>
+
 </body>
 </html>
