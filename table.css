@@ -2,10 +2,11 @@
 table {
   border-spacing: 250px;
   background: #E91E63;
-  position:absolute;
+  position:relative;
 }
 tr{
 padding:20px 20px 20px 20px;
+  position:absolute; 
 }
 td {
   background: #F00;
