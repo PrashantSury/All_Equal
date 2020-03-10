@@ -2,9 +2,11 @@
 table {
   border-spacing: 250px;
   background: #E91E63;
+  position:relative;
 }
 td {
   background: #F00;
-  padding: 50px;
+  padding: 100px;
   background: #FCE4EC;
+  margin:50px;
 }
